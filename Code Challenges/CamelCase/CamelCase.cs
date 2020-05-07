@@ -6,9 +6,9 @@ using System.Text.RegularExpressions;
 
 namespace Code_Challenges
 {
-    public class CamelCase
+    public class CamelCase : IRun
     {
-        public void Run(string path)
+        public void Run()
         {
             var input = AuxiliarMethods.ReadFiles("CamelCase", true);
             var output = AuxiliarMethods.ReadFiles("CamelCase", false);
@@ -18,9 +18,9 @@ namespace Code_Challenges
             }
         }
 
-        private string NumberOfWords(string input)
+        private int NumberOfWords(string input)
         {
-            return Regex.Matches(input, "([a-z])+|([A-Z][a-z]+)").Count.ToString();
+            return Regex.Matches(input, "([a-z])+|([A-Z][a-z]+)").Count;
         }
     }
 }

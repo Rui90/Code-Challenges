@@ -2,7 +2,7 @@
 
 namespace Code_Challenges
 {
-    public class Kangaroo
+    public class Kangaroo : IRun
     {
         public void Run()
         {

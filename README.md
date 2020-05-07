@@ -1,4 +1,5 @@
 # Code-Challenges
  
-Some code challenges will be solved here. 
+This is a project where some problems from Hacker Rank are being solved.
+
 Feel free to discuss solutions. 

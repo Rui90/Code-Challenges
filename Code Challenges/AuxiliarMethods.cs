@@ -9,9 +9,9 @@ namespace Code_Challenges
     public static class AuxiliarMethods
     {
 
-        public static void Assert(string exercise, int number, string result, string output)
+        public static void Assert<T>(string exercise, int number, T result, string output)
         {
-            if (result.Equals(output))
+            if (result.ToString().Equals(output))
             {
                 Console.WriteLine($"Exercise: {exercise} {number} passed");
             } else

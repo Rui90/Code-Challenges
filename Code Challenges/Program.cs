@@ -1,7 +1,11 @@
 ﻿using Code_Challenges;
+using Code_Challenges.GradingStudents;
+using Code_Challenges.StrongPassword;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 
 public class Solution
@@ -9,11 +13,17 @@ public class Solution
 
     static void Main(string[] args)
     {
-        var path = Regex.Match(Directory.GetCurrentDirectory(), ".+?(?=bin)").Value;
+
         Kangaroo kangaroo = new Kangaroo();
         kangaroo.Run();
 
         CamelCase camelCase = new CamelCase();
-        camelCase.Run(path.ToString());
+        camelCase.Run();
+
+        StrongPassword strongPassword = new StrongPassword();
+        strongPassword.Run();
+
+        GradingStudents gradingStudents = new GradingStudents();
+        gradingStudents.Run();
     }
 }
