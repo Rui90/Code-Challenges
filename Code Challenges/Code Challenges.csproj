@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="GradingStudents\files\" />
+    <Folder Include="IceCreamParlor\files\" />
     <Folder Include="Kangaroo\files\" />
     <Folder Include="StrongPassword\files\" />
   </ItemGroup>

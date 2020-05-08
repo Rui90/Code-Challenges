@@ -18,7 +18,7 @@ namespace Code_Challenges.GradingStudents
                 {
                     list.Add(Convert.ToInt32(split[j]));
                 }
-                AuxiliarMethods.Assert("GradingStudes", i, string.Join("\n", gradingStudents(list)), output[i]);
+                AuxiliarMethods.Assert("GradingStudents", i, string.Join("\n", gradingStudents(list)), output[i]);
             }
         }
 

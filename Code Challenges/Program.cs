@@ -1,5 +1,6 @@
 ﻿using Code_Challenges;
 using Code_Challenges.GradingStudents;
+using Code_Challenges.IceCreamParlor;
 using Code_Challenges.StrongPassword;
 using System;
 using System.Collections.Generic;
@@ -25,5 +26,8 @@ public class Solution
 
         GradingStudents gradingStudents = new GradingStudents();
         gradingStudents.Run();
+
+        IceCreamParlor iceCreamParlor = new IceCreamParlor();
+        iceCreamParlor.Run();
     }
 }
