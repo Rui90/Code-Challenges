@@ -1,6 +1,7 @@
 ﻿using Code_Challenges;
 using Code_Challenges.GradingStudents;
 using Code_Challenges.IceCreamParlor;
+using Code_Challenges.SockMerchant;
 using Code_Challenges.StrongPassword;
 using System;
 using System.Collections.Generic;
@@ -29,5 +30,11 @@ public class Solution
 
         IceCreamParlor iceCreamParlor = new IceCreamParlor();
         iceCreamParlor.Run();
+
+        SockMerchant sockMerchant = new SockMerchant();
+        sockMerchant.Run();
     }
+
+
+
 }
