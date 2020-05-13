@@ -1,6 +1,7 @@
 ﻿using Code_Challenges;
 using Code_Challenges.GradingStudents;
 using Code_Challenges.IceCreamParlor;
+using Code_Challenges.RepeatedStrings;
 using Code_Challenges.SockMerchant;
 using Code_Challenges.StrongPassword;
 using System;
@@ -33,8 +34,9 @@ public class Solution
 
         SockMerchant sockMerchant = new SockMerchant();
         sockMerchant.Run();
+
+        RepeatedStrings repeatedStrings = new RepeatedStrings();
+        repeatedStrings.Run();
     }
-
-
 
 }
